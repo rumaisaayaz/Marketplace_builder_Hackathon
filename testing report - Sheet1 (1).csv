@@ -1,0 +1,15 @@
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+,,TC001,Validate product listing page,Open product page → Verify products displayed,Products displayed correctly,Products displayed correctly,Passed,Low,-,No issues found
+,,TC002,Test add-to-cart functionality,Add product to cart → Verify cart contents,Cart updates with added product and total price calculated,Cart updates as expected and calculations are accurate,Passed,High,-,Works as expected
+,,TC003,Validate category component,Choose a category → Verify listed products,Displays products according to the selected category,Products displayed correctly according to category,Passed,Medium,-,Test successful
+,,TC004,Ensure header responsiveness,Resize browser window → Test hamburger menu,Header adjusts to screen size and menu opens as a sidebar,Header is responsive and menu opens as expected,Passed,Medium,-,Fully responsive
+,,TC005,Validate footer responsiveness,Resize browser window → Verify footer layout,Footer adjusts properly to screen size,Footer layout is responsive,Passed,Low,-,Fully responsive
+,,TC006,Validate product detail page functionality,Open product detail page → Verify product details,"Product details (price, quantity, description, etc.) displayed",Product details are displayed dynamically as expected,Passed,Medium,-,Works perfectly
+,,TC007,Verify FAQ component functionality,Open FAQ section → Check question and answers,FAQ section loads correctly and displays content,FAQ content displayed correctly,Passed,Low,-,No issues found
+,,TC008,Validate multi-language component UI,Navigate to language toggle → Verify UI,UI for multi-language toggle is displayed,UI is present but language switching is not functional,Passed,Low,-,"UI implemented, feature pending"
+,,TC009,Test related product feature,Open product page → Verify related product section,Related products displayed dynamically,Related products displayed correctly,Passed,Medium,-,Works as expected
+,,TC010,Test loading experience while fetching data,Open product or category page → Observe loading UI,Loading animation displayed during data fetching,Loading animation enhances user experience,Passed,Low,-,Works smoothly
